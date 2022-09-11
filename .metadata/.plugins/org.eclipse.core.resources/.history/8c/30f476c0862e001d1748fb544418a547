@@ -1,0 +1,12 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i1 = 10;
+		double d1 = i1+10;
+		System.out.println("d1의 데이터는 "+ d1 + " 입니다.");
+	}
+
+}

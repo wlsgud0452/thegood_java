@@ -1,0 +1,7 @@
+package com.javalec.base;
+
+public class IF_03 {
+	public static void main(String[] args) {
+		
+	}//main
+}//If_03

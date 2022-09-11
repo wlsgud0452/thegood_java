@@ -1,0 +1,12 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 사용자의 입력값이 짝수인지 홀수 인지 알려주기
+		System.out.println("숫자를 입력해 주세요!");
+		
+
+	}
+
+}

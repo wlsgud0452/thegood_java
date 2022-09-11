@@ -1,0 +1,21 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 덧셈
+		System.out.println(2 + 3);
+		// 뺄셈
+		System.out.println(2 - 3);
+		// 곱셈
+		System.out.println(2 * 3);
+		// 나눗셈
+		System.out.println(2 / 3);
+		
+		
+	}
+
+}
+
+
+

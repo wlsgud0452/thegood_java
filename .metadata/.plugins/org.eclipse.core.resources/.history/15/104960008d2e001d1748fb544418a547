@@ -1,0 +1,36 @@
+package com.javalec.base;
+
+public class test {
+
+	public static void main(String[] args) {
+
+//		*
+//		**
+//		***
+//		****
+//		*****
+//		String star = "*";
+//		
+//		for (int i =0; i<5; i++) {
+//			System.out.println(star);
+//			star = star + "*";
+//		}
+//		-------------------------------------
+//		*****
+//		****
+//		***
+//		**
+//		*
+		String star = "*";
+		
+		for (int i = 0; i<5; i++) {
+			
+			for(int i2 = 5; i2>i; i2--) {
+				System.out.println(star);
+				star = star + "*";
+			}
+			System.out.println("\n");
+		}
+	}
+
+}
