@@ -6,13 +6,14 @@ public class Main {
 		
 		int sum1 = 0, sum2 = 0;
 		//sum1 = 짝수의 합 , sum2 = 홀수의 합
-		for (int i = 0; i <= 100; i++) {
+		for (int i = 0; i <= 100; i=i+2) {
 			
-			if(i % 2 == 0) {
-				sum1 = sum1 + i;
-			}else {
-				sum2 = sum2 + i;
-			}
+			sum1 = sum1 + i;
+			
+		}
+		for (int j = 1; j <= 100; j=j+2) {
+			
+			sum2 = sum2 + j;
 			
 		}
 		
