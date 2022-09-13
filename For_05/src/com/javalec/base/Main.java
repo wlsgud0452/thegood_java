@@ -25,6 +25,7 @@ public class Main {
 			end = change_start;
 		}
 		
+		
 		for(int i = start; i <= end; i++) {
 			
 			switch(i%10) {
