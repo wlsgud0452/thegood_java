@@ -1,30 +1,37 @@
 package com.javalec.base;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// Data Type
+		Scanner scanner = new Scanner(System.in);
+		int sum1 = 0, sum2 = 0, first = 0, end = 0;
+		//sum1 = 짝수, sum2 =  홀수, first =  시작값, end =  마지막값
+		double avr = 0.0;
 		
-		//문자형
-		char char1 = 'C';
-		char char2 = '가';
+		System.out.println("시작 숫자를 입려하세요 : ");
+		first = scanner.nextInt();
+		System.out.println("끝 숫자를 입력하세요 : ");
+		end = scanner.nextInt();
 		
-		//정수
-		int intNum1 = 10;
-		int intNum2 = 20;
+		for(; first <= end; first++) {
+			
+			switch(first % 2) {
+			
+			case 0:
+				sum1 = sum1 + first;
+				break;
+			default:
+				sum2 = sum2 + first;
+				
+			}	
+		}
+		avr = (((double)(sum1+sum2)/(end-first+1)));
 		
-		//실수형
-		double doubleNum1 = 10.0;
-		double doubleNum2 = 20.0;
-		
-		//문자열 형
-		String str1 = "apple";
-		String str2 = "대한민국";
-		
-		//부울형
-		boolean bool1 = true;
-		boolean bool2 = false;
-		
+		System.out.println("짝수의 합은" + sum1 + "입니다");
+		System.out.println("홀수의 합은" + sum2 + "입니다");
+		System.out.println("전체 평균은" + avr + "입니다.");
 	}
 
 }
