@@ -1,0 +1,29 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class IF06 {
+
+	public static void main(String[] args) {
+		//선언하기
+		Scanner scanner = new Scanner(System.in);
+		int inputnum = 0;//사용자 입력 숫자
+		String result = null;//짝수 홀수 글
+		
+		//사용자에게 숫자 받기
+		System.out.println("숫자를 입력하세요");
+		inputnum = scanner.nextInt();
+		//짝수인지 홀수인지 판하기
+		if(inputnum % 2 == 0) { // 짝수인 경우
+			result = "짝수";
+		}else {//홀수인 경우
+			result = "홀수";
+		}
+		
+		
+		// 결과값 출력하기
+		System.out.println("입력하신 " + inputnum + "(은)는 " + result + "입니다");
+		
+	}
+
+}
