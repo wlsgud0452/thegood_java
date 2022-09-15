@@ -14,7 +14,7 @@ public class Array06 {
 		for(int i = 1; i <= input; i++) {
 		
 			sum += scanner.nextInt();
-		
+	
 		}
 		
 		System.out.println("입력한 숫자의 합은" + sum + "입니다.");
